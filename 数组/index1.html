@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var person = [ '朱铭杨', '陈李鹏', '杨吉', '潘铖']
+    var time = [ '在深更半夜', '在阳光明媚的早晨', '在阳光暴晒的中午', '在凌晨两点']
+    var site = [ '在操场上', '在厕所里', '在食堂里', '在老师办公室']
+    var active = [ '打球', '拉屎', '吃饭', '罚站']
+
+    function choRanstr(array) {
+      return array[Math.floor(Math.random() * array . length)]
+    }
+
+    document . write ( choRanstr(person) + "" + choRanstr(time) + "" + choRanstr(site) + "" + choRanstr(active));
+
+
+  </script>
+</body>
+</html>
